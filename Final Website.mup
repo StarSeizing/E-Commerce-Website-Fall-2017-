@@ -1,0 +1,387 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Lee Shop",
+      "id": 1,
+      "attr": {
+        "position": [
+          -255,
+          -671,
+          1
+        ],
+        "style": {
+          "background": "#FF0000",
+          "width": 181
+        }
+      }
+    },
+    "2": {
+      "title": "Electronics",
+      "id": 2,
+      "attr": {
+        "position": [
+          -674,
+          -535,
+          1
+        ],
+        "style": {
+          "background": "#008000"
+        }
+      },
+      "ideas": {}
+    },
+    "3": {
+      "title": "Clothes",
+      "id": 3,
+      "attr": {
+        "position": [
+          -414,
+          -537,
+          1
+        ],
+        "style": {
+          "width": 50,
+          "background": "#008000"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Pants",
+          "id": 16,
+          "attr": {
+            "position": [
+              85,
+              60,
+              4
+            ]
+          }
+        },
+        "-10": {
+          "title": "Shirts",
+          "id": 15,
+          "attr": {
+            "position": [
+              85,
+              62,
+              3
+            ],
+            "style": {
+              "width": 50
+            }
+          },
+          "ideas": {}
+        }
+      }
+    },
+    "4": {
+      "title": "Customer Service",
+      "id": 4,
+      "attr": {
+        "position": [
+          -10,
+          -534,
+          1
+        ],
+        "style": {
+          "background": "#008000"
+        }
+      }
+    },
+    "5": {
+      "title": "Laptops",
+      "id": 8,
+      "attr": {
+        "position": [
+          -666,
+          -475,
+          1
+        ]
+      }
+    },
+    "6": {
+      "title": "Desktops",
+      "id": 9,
+      "attr": {
+        "position": [
+          -672,
+          -426,
+          1
+        ]
+      }
+    },
+    "7": {
+      "title": "Phones",
+      "id": 10,
+      "attr": {
+        "position": [
+          -668,
+          -378,
+          1
+        ]
+      }
+    },
+    "8": {
+      "title": "Mouses",
+      "id": 11,
+      "attr": {
+        "position": [
+          -672,
+          -330,
+          1
+        ]
+      }
+    },
+    "9": {
+      "title": "Keyboards",
+      "id": 12,
+      "attr": {
+        "position": [
+          -677,
+          -280,
+          1
+        ]
+      }
+    },
+    "10": {
+      "title": "Speakers",
+      "id": 13,
+      "attr": {
+        "position": [
+          -671,
+          -223,
+          1
+        ]
+      }
+    },
+    "11": {
+      "title": "Dress Shirts",
+      "id": 19,
+      "attr": {
+        "position": [
+          -506,
+          -417,
+          1
+        ]
+      }
+    },
+    "12": {
+      "title": "T-Shirts",
+      "id": 20,
+      "attr": {
+        "position": [
+          -499,
+          -365,
+          1
+        ]
+      }
+    },
+    "13": {
+      "title": "Long Sleeve Shirts",
+      "id": 21,
+      "attr": {
+        "position": [
+          -526,
+          -315,
+          1
+        ]
+      }
+    },
+    "14": {
+      "title": "Muscle Shirts",
+      "id": 22,
+      "attr": {
+        "position": [
+          -513,
+          -262,
+          1
+        ]
+      }
+    },
+    "15": {
+      "title": "Jeans",
+      "id": 23,
+      "attr": {
+        "position": [
+          -330,
+          -424,
+          1
+        ]
+      }
+    },
+    "16": {
+      "title": "Joggers",
+      "id": 24,
+      "attr": {
+        "position": [
+          -337,
+          -374,
+          1
+        ]
+      }
+    },
+    "17": {
+      "title": "Sweats",
+      "id": 25,
+      "attr": {
+        "position": [
+          -339,
+          -323,
+          1
+        ]
+      }
+    },
+    "18": {
+      "title": "Dress pants",
+      "id": 26,
+      "attr": {
+        "position": [
+          -350,
+          -273,
+          1
+        ]
+      }
+    },
+    "19": {
+      "title": "Chino",
+      "id": 27,
+      "attr": {
+        "position": [
+          -336,
+          -223,
+          1
+        ]
+      }
+    },
+    "20": {
+      "title": "Returns",
+      "id": 28,
+      "attr": {
+        "position": [
+          11,
+          -484,
+          1
+        ]
+      }
+    },
+    "21": {
+      "title": "Others",
+      "id": 30,
+      "attr": {
+        "position": [
+          -190,
+          -537,
+          1
+        ],
+        "style": {
+          "background": "#008000"
+        }
+      }
+    },
+    "22": {
+      "title": "Water Bottles",
+      "id": 31,
+      "attr": {
+        "position": [
+          -206,
+          -480,
+          1
+        ]
+      }
+    },
+    "23": {
+      "title": "Wallets",
+      "id": 32,
+      "attr": {
+        "position": [
+          -193,
+          -430,
+          1
+        ]
+      }
+    },
+    "24": {
+      "title": "Lamps",
+      "id": 33,
+      "attr": {
+        "position": [
+          -191,
+          -379,
+          1
+        ]
+      }
+    },
+    "25": {
+      "title": "Chargers",
+      "id": 34,
+      "attr": {
+        "position": [
+          -673,
+          -174,
+          1
+        ]
+      }
+    },
+    "26": {
+      "title": "About Lee Shop",
+      "id": 35,
+      "attr": {
+        "position": [
+          190,
+          -538,
+          1
+        ],
+        "style": {
+          "background": "#008000"
+        }
+      }
+    },
+    "27": {
+      "title": "Store Locator",
+      "id": 36,
+      "attr": {
+        "position": [
+          195,
+          -489,
+          1
+        ]
+      }
+    },
+    "28": {
+      "title": "Contacts",
+      "id": 37,
+      "attr": {
+        "position": [
+          206,
+          -438,
+          1
+        ]
+      }
+    },
+    "29": {
+      "title": "Policy ",
+      "id": 38,
+      "attr": {
+        "position": [
+          215,
+          -390,
+          1
+        ]
+      }
+    },
+    "30": {
+      "title": "Job  Employment",
+      "id": 39,
+      "attr": {
+        "position": [
+          187,
+          -340,
+          1
+        ]
+      }
+    }
+  },
+  "title": "Lee Shop",
+  "links": []
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Cart</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="Lee'shop CSS.css"/>
+	</head>
+
+<body>
+	
+	<div class="nav">
+		<a href="Lees%20Shop.html"><img src="Lee'shop logo4.png" alt="Lee's Shop" id="logo" height="80" /></a>
+		  <div class="topNav">
+			<ul>
+				<li><a href="Lees%20Shop.html">Home</a>|</li> 
+				<li><a href="Electronics.html">Electronics</a>|</li>
+				<li><a href="Clothes.html">Apparel</a>|</li>
+				<li><a href="Others.html">Others</a>|</li>
+				<li><a href="Customer%20Service.html">Customer Service</a>|</li>
+				<li><a href="About.html">About</a></li>
+			</ul>
+		  </div>
+		<div class="myCart">
+			<a href="Cart.html"><img src="cart.png" alt="cart" id="cartLogo" height="60" /></a>
+		</div>
+			<!-- HTML for SEARCH BAR -->
+		<div class="tfheader">
+			<form id="tfnewsearch" method="get" action="http://www.google.com">
+					<input type="text" class="tftextinput" name="q" size="70" maxlength="130">
+					<input type="submit" value="search" class="tfbutton">
+			</form>
+		<div class="tfclear"></div>
+		</div>	
+	</div>	
+	
+	<section>	
+	<div class="underSearchBar">
+		<div class="categories">
+			<h2></h2>
+			<div class="sidenav">
+				<ul class="nav-pills nav-stacked">
+				</ul>
+			</div>
+		</div>
+		<div class="rightNav"></div>
+		
+		<div class="cartfeature">
+			<div class="product">
+				<h2>
+					Shopping Cart
+				</h2>
+				
+				<div class="page">
+				  <table id="cart">
+					<thead>
+					  <tr>
+						<th class="first">Photo</th>
+						<th class="second">Qty</th>
+						<th class="third">Product</th>
+						<th class="fourth">Line Total</th>
+						<th class="fifth">&nbsp;</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <!-- shopping cart contents -->
+					  <tr class="productItem">
+						<td><img src="macbook pro.jpg" class="thumb"></td>
+						<td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+						<td>Mac Book Pro 2017</td>
+						<td>$1999.00</td>
+						<td><span class="remove"><img src="trash.png" alt="X"></span></td>
+					  </tr>
+					  <tr class="productItem">
+						<td><img src="iphone 8.jpg" class="thumb"></td>
+						<td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+						<td>iPhone 8</td>
+						<td>$799.99</td>
+						<td><span class="remove"><img src="trash.png" alt="X"></span></td>
+					  </tr>
+					  <!-- tax + subtotal -->
+					  <tr class="extracosts">
+						<td class="light">Shipping &amp; Tax</td>
+						<td colspan="2" class="light"></td>
+						<td>$244.99</td>
+						<td>&nbsp;</td>
+					  </tr>
+					  <tr class="totalprice">
+						<td class="light">Total:</td>
+						<td colspan="2">&nbsp;</td>
+						<td colspan="2"><span class="thick">$3044.98</span></td>
+					  </tr>
+					  
+					  <!-- checkout btn -->
+					  <tr class="checkoutrow">
+						<td colspan="5" class="checkout"><button id="submitbtn">Checkout Now!</button></td>
+					  </tr>
+					</tbody>
+				  </table>
+				</div>
+				
+			</div>
+			
+			<script type="text/javascript">
+				var prices = $("").attr("data_value");
+				var i=0;
+				
+				function addcart() {
+					i++;
+					document.getElementById("").innerHTML="Total Price" + i * prices;
+				}
+				$("button").click(function){
+					document.getElementById("select").innerHTML = "Selected Items" + i;
+				}
+			</script>
+		</div>
+	</div>
+	
+	</section>
+	
+    <div class="footer">
+		<p>Copyright &copy Lee'shop. All rights reserved.</p>
+	</div>
+	
+	
+
+</body>	
+</html>
